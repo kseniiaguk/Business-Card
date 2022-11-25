@@ -1,0 +1,233 @@
+.nb {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vw 2.5vw;
+    margin: 0;
+    font-size: 1.8vw;
+    border-bottom: 1px solid #20252e;
+    background-color: rgba(255, 255, 255, 0.93);
+}
+
+.nb-col {
+    background-color: transparent !important;
+    user-select: none;
+    -webkit-user-select: none;
+    text-decoration: none;
+    max-width: fit-content;
+    text-transform: capitalize;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.nb-col.focused {
+    color: blueviolet;
+}
+
+.nb-col:hover {
+    color: #61dafb;
+}
+
+.nb-col:active {
+    color: #20252e;
+    transform: scale(1.05);
+}
+
+.lang-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5vw;
+    transition: none !important;
+    background: none;
+    border: solid 2px #20252e;
+    border-radius: 20px;
+}
+
+.focused .lang-button {
+    border-color: #61dafb;
+}
+
+.select-container.focused .lang-button * {
+    color: #61dafb;
+}
+
+.select-container.focused .side-menu * {
+    color: #61dafb;
+}
+
+.lang-select label {
+    font-size: 1.4vw;
+}
+
+.lang-option {
+    user-select: none;
+}
+
+.nb .mode:hover {
+    fill: #61dafb;
+}
+
+.nav-buttons .mode:active {
+    fill: #61dafb;
+}
+
+.side-menu {
+    background-color: transparent;
+    border: none;
+    margin-right: 6vw;
+}
+
+.side-menu .options-container {
+    /* margin-right: 20vw; */
+    right: 20vw;
+}
+
+.night-mode .nb .mode {
+    fill: #f6f7ed;
+}
+
+.night-mode .nb .mode:hover {
+    fill: #64389b;
+}
+
+.night-mode .nav-buttons .mode {
+    fill: #f6f7ed;
+}
+
+.night-mode .nav-buttons .mode:active {
+    fill: #64389b;
+}
+
+.night-mode .nb .lang-button {
+    fill: #d8daca;
+}
+
+.night-mode .nb .lang-button, .night-mode .nav-buttons .lang-button {
+    border: solid 2px #f6f7ed;
+}
+
+.night-mode .nav-buttons .focused .lang-button {
+    border-color: #64389b;
+}
+
+.night-mode .select-container.focused .lang-button * {
+    color: #64389b;
+}
+
+.night-mode .select-container.focused .side-menu * {
+    color: #64389b;
+}
+
+.night-mode .nb .lang-button:hover {
+    border-color: #64389b;
+}
+
+.night-mode .nb .select-lang.focused {
+    color: #64389b;
+}
+
+.night-mode .nb .world-icon.focused {
+    fill: #64389b;
+}
+
+.night-mode .nb-col:hover {
+    color: #64389b;
+}
+
+.night-mode .nb {
+    background-color: rgba(19, 24, 33, 0.9);
+    border-bottom: 1px solid #f6f7ed;
+}
+
+.ml {
+    margin-left: 2vw;
+}
+
+@media (min-width: 961px) {
+
+    .nb {
+        display: flex;
+    }
+}
+
+@media (max-width: 960px) {
+
+    .nav-buttons {
+        position: fixed;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        padding: 0.9vw 0;
+        z-index: 3;
+        background-color: white;
+    }
+
+    .night-mode .nav-buttons {
+        background-color: #20252e;
+    }
+
+    .ml {
+        margin-left: 1.5vw;
+    }
+
+}
+
+@media (max-aspect-ratio: 14/10) {
+
+    .ml {
+        margin-left: 2.5vh;
+    }
+
+    .mode {
+        width: 4vh !important;
+        height: 4vh !important;
+    }
+
+    .side-menu svg {
+        width: 3.1vh !important;
+        height: 3.1vh !important;
+    }
+
+    .lang-select label {
+        font-size: 1.4vh;
+    }
+
+    .lang-button svg {
+        width: 2.6vh !important;
+        height: 2.6vh !important;   
+    }
+
+    .lang-button svg:active {
+        fill: #61dafb !important;   
+    }
+
+    .night-mode .lang-button svg:active {
+        fill: #64389b !important;   
+    }
+    
+
+    .nav-buttons .menu-select .options-container {
+        right: 5vw;
+    }
+
+    .nav-buttons .lang-select .options-container {
+        width: 8vh;
+    }
+
+  }

@@ -1,0 +1,86 @@
+.experience.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.experience.header {
+    margin-bottom: 3vw;
+}
+
+.left.work-container {
+    margin: 2vw 7.5vw 7vw 0;
+    position: relative;
+}
+
+.left .background-layer {
+    margin-left: 2.5vw;
+    margin-top: 2.5vw;
+}
+
+.blue-container {
+    background-color: #61dafb;
+    padding: 2.5vw;
+    position: relative;
+}
+
+.right.work-container {
+    padding: 2.2vw;
+    background-color: rgba(137, 43, 226, 0.386);
+    margin-bottom: 1.5vw;
+}
+
+.resp-name::marker {
+    color: blueviolet;
+}
+
+.blue-container h4, .right h3 {
+    font-size: 1.7vw;
+}
+
+.blue-container h3 {
+    font-size: 2vw;
+}
+
+.resp-name {
+    font-size: 1.6vw;
+}
+
+.night-mode .resp-name::marker {
+    color: #3d225f;
+}
+
+.night-mode .blue-container{
+    background-color: #3d225f;
+}
+
+.night-mode .right.work-container {
+    background-color: rgb(132, 90, 174);
+}
+
+.night-mode .background-layer {
+    background-color: rgb(175, 136, 192);;
+}
+
+
+@media (max-aspect-ratio: 14/10) {
+
+    .experience.container {
+        flex-direction: column;
+    }
+
+    .blue-container h4, .right h3 {
+        font-size: 1.7vh;
+    }
+    
+    .blue-container h3 {
+        font-size: 2vh;
+    }
+
+    .resp-name {
+        font-size: 1.7vh;
+    }
+
+}

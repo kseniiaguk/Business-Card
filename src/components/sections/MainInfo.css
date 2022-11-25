@@ -1,0 +1,136 @@
+.about.section {
+    padding: 7vw 5vw 0;
+}
+
+.about.section h2 {
+    padding: 0;
+    line-height: 3.5vw;
+
+}
+
+.about.content {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.7vw;
+}
+
+.about .main-text {
+    position: relative;
+    z-index: 2;
+    text-shadow: 1px 1px rgba(14, 14, 128, 0.1);
+    margin-left: 7vw;
+}
+
+.text-container {
+    position: relative;
+    z-index: 2;
+    border: 2px solid #61dafb;
+    padding: 0 5vw;
+    background-color: rgba(255, 255, 255, 0.89);
+}
+
+.night-mode .text-container {
+    background-color: #131821e7;
+}
+
+.main-text .bordered-back-layer {
+    border: 2px solid blueviolet;
+    margin-top: 3vw;
+    margin-left: 3vw;
+}
+
+.about .main-text p {
+    font-size: 1.7vw;
+}
+
+.about .main-text h3 {
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.main-text p:first-of-type {
+    margin-top: 0.5vw;
+}
+
+.about img {
+    width: 30vw;
+    height: 21vw;
+    margin-top: 4vw;
+}
+
+.conv {
+    color: blueviolet;
+    text-shadow: 1px 1px blue;
+    margin-top: 0;
+}
+
+.main-text ul {
+    margin: 0.7vw 0
+}
+
+.about-facts li {
+    font-size: 1.5vw;
+    list-style-type: square;
+}
+
+.about-facts li::marker {
+    color: blueviolet;
+}
+
+@media (max-width: 960px) {
+
+    .about .main-text {
+        margin-top: 3vw;
+        margin-left: 0;
+    }
+
+    .about.content {
+        font-size: 2vw;
+    }
+
+    .about .main-text p {
+        font-size: 2vw;
+    }
+
+    .about-facts li {
+        font-size: 1.8vw;
+    }
+
+    .main-text .bordered-back-layer {
+        margin-top: 1.5vw;
+
+    }
+
+    .about.section {
+        padding-top: 8vw;
+    }
+
+}
+
+@media (max-aspect-ratio: 14/10) {
+    .about.section {
+        padding-top: 11vw;
+    }
+
+    .conv {
+        text-shadow: 0.4px 0.4px blue;
+    }
+
+    .about.content {
+        font-size: 2.6vh;
+    }
+
+    .about .main-text p {
+        font-size: 2.6vh;
+        margin-bottom: 1vh;
+    }
+
+    .about-facts li {
+        font-size: 2.4vh;
+        margin-bottom: 1vh;
+    }
+
+    .about-facts {
+        margin: 1vh 0;
+    }
+}

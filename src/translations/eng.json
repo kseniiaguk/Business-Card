@@ -1,0 +1,79 @@
+{
+    "common": {
+        "months": [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ],
+        "copyright": "\u00A9 2022 Kseniia Guk"
+    },
+    "navbar": {
+        "about": "about",
+        "skills": "skills",
+        "qualities": "personal qualities",
+        "experience": "experience",
+        "education": "education",
+        "contacts": "contacts",
+        "eng": "англ",
+        "rus": "рус"
+    },
+    "main": {
+        "hi": "Hi!",
+        "myName": "My name is Kseniia",
+        "age": "I'm 23",
+        "place": "currently live in St.\u00A0Petersburg",
+        "graduated": "graduated from the\u00A0St.\u00A0Petersburg State\u00A0University with a bachelor degree (2018 — 2022, Faculty of Applied Mathematics and Control Processes)",
+        "convinced": "I'm convinced that I'm gonna be a superb developer for your projects.",
+        "here": "And here is ",
+        "why": "why"
+    },
+    "skills": {
+        "algorithms": "Algorithms",
+        "dataStruct": "Data structures",
+        "adaptive": "Adaptive layout",
+        "a1": "A1: Beginner",
+        "a2": "A2: Elementary",
+        "b1": "B1: Intermediate",
+        "b2": "B2: Upper-Intermediate",
+        "c1": "C1: Advanced",
+        "c2": "C2: Proficiency",
+        "native": "Native speaker",
+        "rus": "Russian",
+        "eng": "English",
+        "langs": "languages"
+    },
+    "qualities": {
+        "attention": "Attention to detail",
+        "anMind": "Analytical mindset",
+        "outOfBox": "Out of the box thinking",
+        "quickWitted": "Quick-witted",
+        "activity": "Activity and curiosity",
+        "persistence": "Persistence and sense of purpose",
+        "perseverance": "Perseverance",
+        "responsibility": "Responsibility",
+        "stressTolerance": "Stress tolerance",
+        "commSkills": "High level of communication skills",
+        "teamPlayer": "Team player"
+    },
+    "experience": {
+        "responsibilities": "responsibilities",
+        "first": "work on the website for searching vacancies and employees in accordance with the contract",
+        "layout": "pages layout according to Figma samples",
+        "logic": "page logic development",
+        "react": "used React to write JavaScript code with the ability to receive data from the server, present it to the user, navigate between pages, validate data when working with forms, and send data to the server.",
+        "adaptive": "made the layout based on the principle of responsive design — both for wide and narrow screens",
+        "pdf": "implemented the function of rendering the content of PDF files on the site using the react-read-pdf library",
+        "mail": "created email templates",
+        "lang": "implemented the ability to switch the interface language using the i18next library",
+        "debug": "pages and components debug"
+    }
+}

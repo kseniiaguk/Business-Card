@@ -1,0 +1,25 @@
+.options-container {
+    position: absolute;
+    border: 2px solid #131821;
+    background-color: white;
+    box-shadow: 1vw 1vw 8px #2b364a69;
+}
+
+.option {
+    padding: 1vw;
+    border: 2px solid transparent;
+}
+
+.option.chosen {
+    background-color: blueviolet;
+}
+
+.option:hover {
+    border-color: #61dafb;
+}
+
+.night-mode .options-container {
+    position: absolute;
+    border: 2px solid #f6f7ed;
+    background-color: #131821;
+}

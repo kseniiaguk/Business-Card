@@ -1,0 +1,181 @@
+.skills.section {
+    /* margin: 0.5vw; */
+    position: relative;
+    padding: 4vw;
+    padding-top: 0;
+}
+
+.skills .background-layer {
+    margin: 0;
+    margin-top: 4vw;
+    margin-left: 4vw;
+    width: 100%;
+    height: 90%;
+}
+
+.skills-area {
+    margin-right: 4vw;
+    position: relative;
+}
+
+.skills.container {
+    z-index: 2;
+    position: relative;
+}
+
+.skills.section h2 {
+    margin: 0;
+    padding-top: 10px;
+    margin-bottom: 2.5vw;
+}
+
+.skills.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.skill-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1vw;
+}
+
+.skill-row.left {
+    max-width: 20vw;
+}
+
+.skill.name {
+    font-size: 1.7vw;
+    margin-right: 2vw;
+}
+
+.skill-circle {
+    width: 1.5vw;
+}
+
+.name {
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+}
+
+.skills.content .skills-ul {
+    z-index: 2;
+    position: relative;
+    background-color: #61dafb;
+    padding: 3vw;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    column-gap: 0;
+}
+
+.lang-area h3 {
+    font-size: 2.5vw;
+    margin: 0;
+}
+
+.lang-area {
+    background-color: rgba(137, 43, 226, 0.386);
+    padding: 2vw;
+}
+
+.lang.name {
+    font-size: 1.8vw;
+    margin-bottom: 0.5vw;
+}
+
+.lang-level {
+    font-size: 1.5vw;
+    margin: 0;
+    font-weight: 400;
+}
+
+.langs-ul li {
+    margin-bottom: 1vw;
+}
+
+.langs-ul li::marker {
+    color: blueviolet;
+    font-size: 1.5vw;
+}
+
+.night-mode .skills.section, .night-mode .skills.section * {
+    background-color: #3d225f;
+  }
+
+  
+@media (max-aspect-ratio: 14/10) {
+    .skills.content {
+        flex-direction: column;
+    }
+
+    .skills-area {
+        margin-bottom: 2.5vh;
+    }
+
+    .lang-level {
+        font-size: 1.9vh;
+        /* margin: 0; */
+    }
+
+    .lang.name {
+        font-size: 2.1vh;
+        margin-bottom: 0.5vh;
+    }
+
+    .langs-ul li::marker {
+        font-size: 1.5vh;
+    }
+
+    .lang-area h3 {
+        font-size: 2.5vh;
+    }
+
+    .skill.name {
+        font-size: 2vh;
+        max-width: min-content;
+    }
+    
+    .skill-row {
+        margin-bottom: 1vh;
+    }
+
+    .skill-row.left {
+        max-width: 18vh;
+    }
+
+    .skills.content .skills-ul {
+        padding: 3vh 3vw;
+    }
+
+    .skill-circle {
+        width: 1vh;
+    }
+
+    .skills .background-layer {
+        margin-top: 4vh;
+        margin-left: 4vj;
+    }
+
+}
+
+@media ((max-aspect-ratio: 14/10) and (min-aspect-ratio: 4/5)) {
+    .skill-row.left {
+        max-width: 23vh;
+    }
+}
+
+@media (max-aspect-ratio: 1/2) {
+    .skill.name {
+        font-size: 1.6vh;
+    }
+
+    .skill-row.left {
+        max-width: 15vh;
+    }
+}
